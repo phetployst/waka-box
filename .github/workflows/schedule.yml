@@ -16,4 +16,4 @@ jobs:
           GIST_ID: 371c4b1cc60663539e16cdddb19fd92e
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@1.1.0
+        uses: liskin/gh-workflow-keepalive@v1
